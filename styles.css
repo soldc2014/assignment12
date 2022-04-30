@@ -1,0 +1,133 @@
+*{
+  box-sizing: content-box;
+margin:0%;
+padding:0%; 
+color: white;
+}
+
+div.container{ border: 2px solid white;
+background-image: url(images/healthy-food-cooking-background-top-2229459.jpg);
+  background-size: 100%  1300px;
+  background-repeat: no-repeat;
+  position:relative;
+  margin:-0%;
+  }
+
+
+  nav{background-color: grey;
+    display: flex;
+    justify-content:center;
+  padding:0%;
+margin:0%;}
+
+
+
+  ul{text-align:center;
+    list-style-type: none;
+  }
+
+li{
+  display: inline-block;
+  width: 150px;
+border: 2px solid white;
+line-height: 3em;}
+
+a{color:aliceblue;
+  text-align: none;
+  display: block;
+  }
+
+
+
+  .main{overflow:auto;
+    padding-bottom: 100px;
+    }
+
+
+
+  
+h2{
+  text-align: center;
+}
+
+  figure { 
+  display:flex;
+  justify-content:space-between;
+    gap: 2rem;
+    color: white;
+   font-size: 18px;
+   font-weight:bold;
+   text-decoration: underline;
+   text-align: center;
+   bottom:0;
+  }
+
+  .cycle-slideshow {
+    left:43%;
+    
+  }
+
+ 
+article {
+  width: 500px;
+    margin: 50px auto;
+    border: 2px solid white;
+    box-sizing: content-box;
+  text-align: justify;
+  position:relative;
+   font-size: larger;
+  }
+
+  
+  
+.footer{
+    background-color: gray;
+    position:sticky;
+    height: 50px;
+    margin-top: -10px;
+    clear: both;
+  }
+
+  @media screen and (max-width:600px) {
+
+    div.container{
+      background-size: 115%  1200px;
+  background-repeat: no-repeat;
+  position:relative;
+  margin:-0%;
+      
+    }
+
+   ul li{
+      width: 100%;
+      margin:0%;
+      float:left;
+      box-sizing: border-box;
+    }
+    nav{
+      margin:0%;
+      overflow: hidden;
+    }
+    li a{
+      display:block;
+      text-align: center;
+    }
+
+.cycle-slideshow{
+      margin-right:50%;
+    }
+
+    article{
+      width: 60%;
+    }
+   
+    
+    
+  }
+    
+    
+  
+    
+  
+
+  
